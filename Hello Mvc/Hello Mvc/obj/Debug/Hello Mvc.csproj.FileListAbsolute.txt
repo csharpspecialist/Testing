@@ -1,0 +1,46 @@
+D:\Test\Hello Mvc\Hello Mvc\bin\ApplicationInsights.config
+D:\Test\Hello Mvc\Hello Mvc\bin\roslyn\csc.exe
+D:\Test\Hello Mvc\Hello Mvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Test\Hello Mvc\Hello Mvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Test\Hello Mvc\Hello Mvc\bin\roslyn\System.Collections.Immutable.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\roslyn\System.Reflection.Metadata.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\roslyn\vbc.exe
+D:\Test\Hello Mvc\Hello Mvc\bin\roslyn\VBCSCompiler.exe
+D:\Test\Hello Mvc\Hello Mvc\bin\roslyn\VBCSCompiler.exe.config
+D:\Test\Hello Mvc\Hello Mvc\bin\Hello Mvc.dll.config
+D:\Test\Hello Mvc\Hello Mvc\bin\Hello Mvc.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\Hello Mvc.pdb
+D:\Test\Hello Mvc\Hello Mvc\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\Microsoft.AI.DependencyCollector.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\Microsoft.AI.Web.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\Microsoft.AI.WindowsServer.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\Microsoft.ApplicationInsights.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\Microsoft.Web.Infrastructure.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\System.Web.Helpers.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\System.Web.Mvc.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\System.Web.Razor.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\System.Web.Webpages.Deployment.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\System.Web.Webpages.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\System.Web.Webpages.Razor.dll
+D:\Test\Hello Mvc\Hello Mvc\bin\Microsoft.AI.DependencyCollector.xml
+D:\Test\Hello Mvc\Hello Mvc\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Test\Hello Mvc\Hello Mvc\bin\Microsoft.AI.Web.xml
+D:\Test\Hello Mvc\Hello Mvc\bin\Microsoft.AI.WindowsServer.xml
+D:\Test\Hello Mvc\Hello Mvc\bin\Microsoft.ApplicationInsights.xml
+D:\Test\Hello Mvc\Hello Mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Test\Hello Mvc\Hello Mvc\bin\System.Web.Razor.xml
+D:\Test\Hello Mvc\Hello Mvc\bin\System.Web.Webpages.xml
+D:\Test\Hello Mvc\Hello Mvc\bin\System.Web.Webpages.Deployment.xml
+D:\Test\Hello Mvc\Hello Mvc\bin\System.Web.Webpages.Razor.xml
+D:\Test\Hello Mvc\Hello Mvc\bin\System.Web.Helpers.xml
+D:\Test\Hello Mvc\Hello Mvc\bin\System.Web.Mvc.xml
+D:\Test\Hello Mvc\Hello Mvc\obj\Debug\Hello Mvc.csprojResolveAssemblyReference.cache
+D:\Test\Hello Mvc\Hello Mvc\obj\Debug\Hello Mvc.dll
+D:\Test\Hello Mvc\Hello Mvc\obj\Debug\Hello Mvc.pdb
