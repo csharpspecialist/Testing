@@ -1,7 +1,92 @@
 ﻿
 @{
     ViewBag.Title = "Index";
+    int value1 = 1000;
 }
 
 <h2>Big Daddy's MVC Page</h2>
+
+@{ 
+    value1 += 1;
+}
+
+
+@{   //this is a mixed expression of razor syntax, HTML & C #
+    var name = "Dude";
+    var day = DateTime.Now.DayOfWeek;
+
+    <p>Howdy...today is @day @name</p>
+    <p> The value of value 1 = @value1</p>
+}
+
+@{ 
+    //this is called an explicit expression..where the variable is wrapped in ()
+    int value2 = 123;
+    <p>This is an example of an explicit exression Hello@(value2)</p>
+}
+
+@helper pluralizedChildren(int childCount)
+    {
+    @(childCount == 1 ? "child" : "children"); 
+          
+    }
+
+@{ 
+    var childCount = 1;
+    <p>I have @childCount @pluralizedChildren(@childCount)</p>
+}
+
+@helper pluralize(int amount, string singular, string plural)
+    {
+    @(amount == 1 ? singular : plural)
+    }
+
+@{    
+    var crisisCount = 10;
+    <p> Mr. President there are @pluralize(crisisCount, "is one Crisis", +crisisCount + " crises") you must deal with immediately </p>
+}
+
+
+<p>
+    Mr. President, there
+    @if (crisisCount == 1)
+    {
+        <span>is 1 crisis</span>
+    }
+    else
+    {
+        <span>are @crisisCount crises</span>
+    }
+    you must deal with immediately!!
+
+</p>
+
+<p>
+   
+    @{
+        var test = true;
+        if (test)
+
+        {  // below displays text to the screen also..
+           //so you don't need the <span> tags like in line 58 above
+           //or you could use html tags like <p> tags
+       @:Display This Message to the suckas!!!
+        }
+
+        }
+</p>
+
+<p>
+    @for (int i = 0; i < 5; i++)
+    {
+        <span>@i</span>
+        
+    }
+    
+
+</p>
+<p>  bigJ@hotmail.com</p>
+<p>bigj @(childCount)</p>
+
+
 
