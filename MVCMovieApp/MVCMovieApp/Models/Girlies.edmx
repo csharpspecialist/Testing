@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ApocalypseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Mini Series">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress1" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress2" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress3" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress4" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress5" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress6" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress7" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress8" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress9" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress10" Type="nvarchar" MaxLength="255" />
+          <Property Name="Studio" Type="nvarchar" MaxLength="255" />
+          <Property Name="Case" Type="float" />
+          <Property Name="Position" Type="float" />
+        </EntityType>
+        <EntityType Name="Singles">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress1" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress2" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress3" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress4" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress5" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress6" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress7" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress8" Type="nvarchar" MaxLength="255" />
+          <Property Name="Actress9" Type="nvarchar" MaxLength="255" />
+          <Property Name="Studio" Type="nvarchar" MaxLength="255" />
+          <Property Name="Case" Type="float" />
+          <Property Name="Position" Type="float" />
+          <Property Name="F15" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityContainer Name="ApocalypseModelStoreContainer">
+          <EntitySet Name="Mini Series" EntityType="Self.Mini Series" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Singles" EntityType="Self.Singles" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ApocalypseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Mini_Series">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress2" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress3" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress4" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress5" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress6" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress7" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress8" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress9" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress10" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Studio" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Case" Type="Double" />
+          <Property Name="Position" Type="Double" />
+        </EntityType>
+        <EntityType Name="Single">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress2" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress3" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress4" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress5" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress6" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress7" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress8" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Actress9" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Studio" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Case" Type="Double" />
+          <Property Name="Position" Type="Double" />
+          <Property Name="F15" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="ApocalypseEntities3" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Mini_Series" EntityType="Self.Mini_Series" />
+          <EntitySet Name="Singles" EntityType="Self.Single" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ApocalypseModelStoreContainer" CdmEntityContainer="ApocalypseEntities3">
+          <EntitySetMapping Name="Mini_Series">
+            <EntityTypeMapping TypeName="ApocalypseModel.Mini_Series">
+              <MappingFragment StoreEntitySet="Mini Series">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Actress1" ColumnName="Actress1" />
+                <ScalarProperty Name="Actress2" ColumnName="Actress2" />
+                <ScalarProperty Name="Actress3" ColumnName="Actress3" />
+                <ScalarProperty Name="Actress4" ColumnName="Actress4" />
+                <ScalarProperty Name="Actress5" ColumnName="Actress5" />
+                <ScalarProperty Name="Actress6" ColumnName="Actress6" />
+                <ScalarProperty Name="Actress7" ColumnName="Actress7" />
+                <ScalarProperty Name="Actress8" ColumnName="Actress8" />
+                <ScalarProperty Name="Actress9" ColumnName="Actress9" />
+                <ScalarProperty Name="Actress10" ColumnName="Actress10" />
+                <ScalarProperty Name="Studio" ColumnName="Studio" />
+                <ScalarProperty Name="Case" ColumnName="Case" />
+                <ScalarProperty Name="Position" ColumnName="Position" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Singles">
+            <EntityTypeMapping TypeName="ApocalypseModel.Single">
+              <MappingFragment StoreEntitySet="Singles">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Actress1" ColumnName="Actress1" />
+                <ScalarProperty Name="Actress2" ColumnName="Actress2" />
+                <ScalarProperty Name="Actress3" ColumnName="Actress3" />
+                <ScalarProperty Name="Actress4" ColumnName="Actress4" />
+                <ScalarProperty Name="Actress5" ColumnName="Actress5" />
+                <ScalarProperty Name="Actress6" ColumnName="Actress6" />
+                <ScalarProperty Name="Actress7" ColumnName="Actress7" />
+                <ScalarProperty Name="Actress8" ColumnName="Actress8" />
+                <ScalarProperty Name="Actress9" ColumnName="Actress9" />
+                <ScalarProperty Name="Studio" ColumnName="Studio" />
+                <ScalarProperty Name="Case" ColumnName="Case" />
+                <ScalarProperty Name="Position" ColumnName="Position" />
+                <ScalarProperty Name="F15" ColumnName="F15" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

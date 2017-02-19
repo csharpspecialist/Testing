@@ -11,11 +11,15 @@ namespace Scoffolding.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class Product
     {
         public System.Guid ProductId { get; set; }
+
+        [Display(Name = "Product Name:")]
         public string Name { get; set; }
+        [Display(Name = "Product Price:")]
         public Nullable<decimal> Price { get; set; }
     }
 }

@@ -1,0 +1,111 @@
+﻿@model IEnumerable<MVCMovieApp.Models.Single>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Actress1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Actress2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Actress3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Actress4)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Actress5)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Actress6)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Actress7)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Actress8)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Actress9)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Studio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Case)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Position)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.F15)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Actress1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Actress2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Actress3)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Actress4)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Actress5)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Actress6)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Actress7)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Actress8)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Actress9)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Studio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Case)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Position)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.F15)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>
