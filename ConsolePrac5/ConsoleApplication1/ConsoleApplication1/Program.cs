@@ -80,6 +80,15 @@ namespace ConsoleApplication1
             }
             Console.ReadKey();
 
+
+            int price = 3;
+            int big = 7;
+
+            //for the ternary to work below...the data type must be a string!!!
+             string clear = (price > big) ? "Great" : "Not great";
+            Console.WriteLine(clear);
+            Console.ReadLine();
+
         } 
 
         public static void arnold()
